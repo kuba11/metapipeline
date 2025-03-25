@@ -22,7 +22,7 @@ process test {
 
     script:
     """
-        cat ${text} > "test.txt"
+        echo ${text} > "test.txt"
     """
 }
 
